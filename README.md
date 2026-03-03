@@ -5,16 +5,17 @@ A macOS menu-bar app that shows your internet connectivity status using [AnyBar]
 - **filled** — connected
 - **exclamation** — no connection
 
-## Install AnyBar
+## Install dependencies
 
 ```bash
+brew install uv # or other python package runner like pipx
 brew install --cask anybar
 ```
 
 ## Usage
 
 ```bash
-uv run pingtray
+uvx pingtray
 ```
 
 ## Configuration

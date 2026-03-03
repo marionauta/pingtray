@@ -10,6 +10,8 @@ dependencies = [
 ]
 
 [project.urls]
+Changelog = "https://github.com/marionauta/pingtray/blob/main/CHANGELOG.md"
+Homepage = "https://pypi.org/project/pingtray/"
 Repository = "https://github.com/marionauta/pingtray"
 
 [project.scripts]
